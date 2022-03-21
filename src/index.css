@@ -1,0 +1,194 @@
+/*--------------------------------------------dashboard css------------------------------------------------*/
+.right-content {
+  width: 80%;
+  /* background-color: rgb(60, 255, 0); */
+  position: relative;
+  left: 300px;
+  top: 125px;
+}
+.side-menu .right-content.inactive {
+  /* background-color: blue;
+    width: 100%; */
+  display: none;
+}
+
+.dashboard-head {
+  padding-left: 50px;
+}
+.dashboard-head h2 {
+  font-weight: 600;
+}
+.dashboard-head p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/*---------------------------------Boxes css--------------------------------------------*/
+.boxes {
+  display: flex;
+  /* gap: 50px; */
+}
+.box-one {
+  width: 400px;
+  height: 160px;
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 25px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.box-head {
+  padding-left: 30px;
+  padding-top: 35px;
+  display: flex;
+}
+.box-no {
+  padding-left: 30px;
+  padding-top: 0px;
+}
+
+.box-per button {
+  color: green;
+  background-color: rgba(137, 247, 122, 0.5);
+  margin-left: 30px;
+  width: 50px;
+  border: none;
+  border-radius: 2px;
+}
+
+.box-per2 button {
+  color: red;
+  background-color: rgba(247, 122, 122, 0.5);
+  margin-left: 30px;
+  width: 50px;
+  border: none;
+  border-radius: 2px;
+}
+/*-------------------------------chart css------------------------------------------*/
+.dashboard_chart {
+  display: flex;
+}
+.project-chart-box {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 400px;
+  width: 600px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.chart-head {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+.chart-boxes {
+  display: flex;
+}
+/*----------------------------Table css----------------------------------------*/
+.main-table {
+  /* border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 95%;
+}
+.table-head {
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 95%;
+}
+.table-head h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 25px;
+  padding-top: 30px;
+}
+.table thead th {
+  border: none !important;
+}
+.table tbody td {
+  border: none !important;
+}
+.main-table {
+  overflow: auto;
+  /* display: block; */
+  /* table-layout: auto; */
+}
+/* .react-bootstrap-table {
+  overflow-x: scroll !important;
+} */
+/*-------------------------------Pagination css-------------------------------------*/
+.page-btn {
+  /* display: flex !important; */
+  /* justify-content: start !important; */
+}
+.react-bootstrap-table-pagination-list {
+  /* background-color: red !important; */
+  width: 170px !important;
+  /* right: -30!important; */
+  left: 10px !important;
+}
+.btn.btn-default.btn-secondary.dropdown-toggle {
+  /* background-color: green !important; */
+  position: relative !important;
+  left: 850px !important;
+}
+.dropdown-menu {
+  /* background-color: green !important; */
+  position: relative !important;
+  top: 50px !important;
+  left: 900px !important;
+}
+.pagination {
+  background-color: red;
+}
+.pagenationwrapper ul {
+  display: flex;
+  justify-content: space-around;
+}
+.pagenationwrapper ul li {
+  padding: 10px;
+}
+.pagenationwrapper ul li a {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+.page {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  cursor: pointer;
+  /* 
+    letter-spacing: 0.05em; */
+}
+.page__arrow {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+  /* 
+    letter-spacing: 0.05em; */
+}
+.pagination-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.per-page {
+  width: 50%;
+}
+
+.btn-1 {
+  width: 40px;
+  height: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
